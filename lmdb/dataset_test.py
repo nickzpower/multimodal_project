@@ -28,7 +28,7 @@ from dataset import LmdbDataset
 class LmdbDatasetTest(unittest.TestCase):
     def setUp(self):
         self.dataset = LmdbDataset("train_lmdb")
-        self.dataloader = DataLoader(self.dataset, batch_size=32, shuffle=True,
+        self.dataloader = DataLoader(self.dataset, batch_size=20, shuffle=True,
                                      num_workers=4)
 
     def testRead(self):

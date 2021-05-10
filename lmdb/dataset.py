@@ -34,7 +34,8 @@ class LmdbDataset(Dataset):
         self.env = lmdb.open(lmdb_path, max_readers=1, readonly=True, lock=False,
                              readahead=False, meminit=False)
         with self.env.begin(write=False) as txn:
-            self.length = txn.stat()['entries']
+            #self.length = txn.stat()['entries']
+            self.length = -1
             self.keys = [key for key, _ in txn.cursor()]
 
     def __getitem__(self, index):

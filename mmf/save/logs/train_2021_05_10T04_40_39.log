@@ -1,0 +1,28 @@
+2021-05-10T04:40:39 | INFO | mmf : Logging to: ./save/train.log
+2021-05-10T04:40:39 | INFO | mmf_cli.run : Namespace(config_override=None, local_rank=None, opts=['config=projects/vilbert/configs/hateful_memes/from_cc.yaml', 'model=vilbert', 'dataset=hateful_memes'])
+2021-05-10T04:40:39 | INFO | mmf_cli.run : Torch version: 1.8.1+cu102
+2021-05-10T04:40:39 | INFO | mmf_cli.run : Using seed 39053405
+2021-05-10T04:40:39 | INFO | mmf.trainers.mmf_trainer : Loading datasets
+2021-05-10T04:40:44 | WARNING | py.warnings : /home/nickzpower/anaconda3/envs/mmf/lib/python3.7/site-packages/torch/utils/data/dataloader.py:477: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+
+2021-05-10T04:40:44 | WARNING | py.warnings : /home/nickzpower/anaconda3/envs/mmf/lib/python3.7/site-packages/torch/utils/data/dataloader.py:477: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+
+2021-05-10T04:40:44 | INFO | mmf.datasets.multi_datamodule : Multitasking disabled by default for single dataset training
+2021-05-10T04:40:44 | INFO | mmf.datasets.multi_datamodule : Multitasking disabled by default for single dataset training
+2021-05-10T04:40:44 | INFO | mmf.datasets.multi_datamodule : Multitasking disabled by default for single dataset training
+2021-05-10T04:40:44 | INFO | mmf.trainers.mmf_trainer : Loading model
+2021-05-10T04:40:57 | INFO | mmf.trainers.mmf_trainer : Loading optimizer
+2021-05-10T04:40:57 | INFO | mmf.trainers.mmf_trainer : Loading metrics
+2021-05-10T04:40:57 | WARNING | py.warnings : /home/nickzpower/anaconda3/envs/mmf/lib/python3.7/site-packages/omegaconf/basecontainer.py:232: UserWarning: cfg.pretty() is deprecated and will be removed in a future version.
+Use OmegaConf.to_yaml(cfg)
+
+  category=UserWarning,
+
+2021-05-10T04:40:57 | WARNING | py.warnings : /home/nickzpower/anaconda3/envs/mmf/lib/python3.7/site-packages/omegaconf/basecontainer.py:232: UserWarning: cfg.pretty() is deprecated and will be removed in a future version.
+Use OmegaConf.to_yaml(cfg)
+
+  category=UserWarning,
+
+2021-05-10T04:40:57 | INFO | mmf.utils.checkpoint : Loading checkpoint

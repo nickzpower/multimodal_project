@@ -1,0 +1,5 @@
+2021-05-10T04:41:37 | INFO | mmf : Logging to: ./save/train.log
+2021-05-10T04:41:37 | INFO | mmf_cli.run : Namespace(config_override=None, local_rank=None, opts=['config=projects/vilbert/configs/hateful_memes/from_cc.yaml', 'model=vilbert', 'dataset=hateful_memes'])
+2021-05-10T04:41:37 | INFO | mmf_cli.run : Torch version: 1.8.1+cu102
+2021-05-10T04:41:37 | INFO | mmf_cli.run : Using seed 37793196
+2021-05-10T04:41:37 | INFO | mmf.trainers.mmf_trainer : Loading datasets
